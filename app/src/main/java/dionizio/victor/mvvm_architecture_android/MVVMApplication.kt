@@ -1,4 +1,11 @@
 package dionizio.victor.mvvm_architecture_android
 
-class MVVMApplication {
+import android.app.Application
+
+class MVVMApplication : Application() {
+
+    override fun onCreate() {
+        super.onCreate()
+    }
+
 }

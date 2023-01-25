@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="dionizio.victor.mvvm_architecture_android">
 
     <application
@@ -8,7 +9,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MVVMArchitectureAndroid">
+        android:theme="@style/Theme.MVVMArchitectureAndroid"
+        android:name="dionizio.victor.mvvm_architecture_android.MVVMApplication"
+        tools:ignore="MissingClass">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
