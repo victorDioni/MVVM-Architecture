@@ -7,6 +7,9 @@ import dagger.Module
 import dagger.Provides
 import dionizio.victor.mvvm_architecture_android.data.repository.TopHeadlineRepository
 import dionizio.victor.mvvm_architecture_android.di.ActivityContext
+import dionizio.victor.mvvm_architecture_android.ui.base.ViewModelProviderFactory
+import dionizio.victor.mvvm_architecture_android.ui.topheadilne.TopHeadlineAdapter
+import dionizio.victor.mvvm_architecture_android.ui.topheadilne.TopHeadlineViewModel
 
 @Module
 class ActivityModule(private val activity: AppCompatActivity) {

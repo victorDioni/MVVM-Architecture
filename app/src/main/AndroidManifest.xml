@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="dionizio.victor.mvvm_architecture_android">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,7 +16,7 @@
         tools:ignore="MissingClass">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.topheadilne.TopHeadlineActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
